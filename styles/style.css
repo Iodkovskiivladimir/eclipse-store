@@ -1,0 +1,100 @@
+body {
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #fffffa;
+    background-color: #ffffff;
+    background-image: url(background.jpg);
+    background-size: auto;
+     background-repeat: no-repeat;
+  }
+
+
+
+  .navbar{
+    width: 100%;
+    height: 100px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,0.9) 0%, rgba(255, 255, 255, 0.8) 50%, rgba(255,255,255,0.9) 100%);
+
+}
+  
+.navbar .container{
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+  }
+  
+  .navbar-menu{
+    list-style-type: none;
+    padding-left: 10px;
+    margin-bottom: 0;
+    margin-right: 80px;
+  }
+  .navbar-menu li{
+    display: inline-block;
+  }
+  .navbar-menu li a{
+    font-size: 24px;
+    display: inline-block;
+    color:black;
+    opacity:0.8;
+    text-decoration: none;
+    padding: 15px;
+    transition: all .07s ease-in-out;
+  }
+  .navbar-menu li a:hover {
+    opacity: 1;
+  }
+.navbar-wrap{
+  display: flex;
+  flex-flow: row nowrap;
+}
+.callback{
+  font-size: 24px;
+  margin-right: 30px;
+  margin-top: 20px;
+  padding: 10px 10px;
+  background-color: rgb(255, 127, 80);
+  border-radius: 100px;
+  text-decoration: none;
+  color:aliceblue;
+  box-shadow:0 4px 6px rgba(0, 0, 0, .1) ;
+
+}
+.callback:hover{
+  transform: scale(1.04);
+  transition: 0.1s ease-in-out;
+}
+.navbar-brand{
+    width: 80px;
+    margin-left: 20px;
+  }
+
+
+
+
+
+
+
+p {
+    font-size: 24px;
+    font-style: italic;
+    font-family: sans-serif; 
+}
+#p {
+  font-size: 24px;
+  font-style:normal;
+  font-family: sans-serif;
+}
+li {
+    list-style-type: none;
+     /* Убираем маркеры */ 
+      /*display: inline; Отображать как строчный элемент */
+
+  }
+  
+.goods{
+  width: 400px;
+}
